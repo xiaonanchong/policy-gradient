@@ -56,6 +56,7 @@ def plot_data(data, value="AverageReturn"):
     sns.tsplot(data=data, time="Iteration", value=value, unit="Unit", condition="Condition")
     plt.legend(loc='best').draggable()
     plt.show()
+    # for remote server: add save figure
     plt.savefig('result.png')
 
 
