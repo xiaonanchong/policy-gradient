@@ -1,6 +1,7 @@
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
+# add for remote server
 plt.switch_backend('agg')
 import json
 import os
