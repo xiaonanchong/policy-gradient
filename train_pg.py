@@ -452,10 +452,10 @@ def train_PG(
         loss.backward()
         optimizer.step()
 
-        ####################### cxn ####################
+        ##################### cxn ####################
         if itr == n_iter-1:
-            torch.save(mlp, logdir)
-        ####################### cxn ####################
+            torch.save(mlp, '~/hchonglondon/working_space/policy-gradient/SAVED_MODEL')
+        ##################### cxn ####################
 
         # Log diagnostics
         returns = [path["reward"].sum() for path in paths]
