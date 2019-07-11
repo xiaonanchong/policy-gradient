@@ -454,7 +454,8 @@ def train_PG(
 
         ##################### cxn ####################
         if itr == n_iter-1:
-            torch.save(mlp, '~/hchonglondon/working_space/policy-gradient/SAVED_MODEL')
+            # torch.save(mlp, '~/hchonglondon/working_space/policy-gradient/SAVED_MODEL')
+            torch.save(mlp, '~/xiaonanchong/policy-gradient/SAVED_MODEL')
         ##################### cxn ####################
 
         # Log diagnostics
