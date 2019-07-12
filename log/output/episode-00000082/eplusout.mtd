@@ -1,0 +1,554 @@
+
+ Meters for 9,WEST ZONE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WEST ZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WEST ZONE [J]
+  OnMeter=GeneralLights:InteriorLights:Electricity [J]
+
+ Meters for 70,EAST ZONE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:EAST ZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:EAST ZONE [J]
+  OnMeter=GeneralLights:InteriorLights:Electricity [J]
+
+ Meters for 91,WEST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WEST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WEST ZONE [J]
+  OnMeter=MiscPlug:InteriorEquipment:Electricity [J]
+
+ Meters for 122,EAST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:EAST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:EAST ZONE [J]
+  OnMeter=MiscPlug:InteriorEquipment:Electricity [J]
+
+ Meters for 140,WESTDATACENTER_EQUIP:ITE CPU Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WEST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WEST ZONE [J]
+  OnMeter=ITE-CPU:InteriorEquipment:Electricity [J]
+
+ Meters for 151,WESTDATACENTER_EQUIP:ITE Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WEST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WEST ZONE [J]
+  OnMeter=ITE-Fans:InteriorEquipment:Electricity [J]
+
+ Meters for 162,WESTDATACENTER_EQUIP:ITE UPS Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WEST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WEST ZONE [J]
+  OnMeter=ITE-UPS:InteriorEquipment:Electricity [J]
+
+ Meters for 206,EASTDATACENTER_EQUIP:ITE CPU Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:EAST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:EAST ZONE [J]
+  OnMeter=ITE-CPU:InteriorEquipment:Electricity [J]
+
+ Meters for 207,EASTDATACENTER_EQUIP:ITE Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:EAST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:EAST ZONE [J]
+  OnMeter=ITE-Fans:InteriorEquipment:Electricity [J]
+
+ Meters for 208,EASTDATACENTER_EQUIP:ITE UPS Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:EAST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:EAST ZONE [J]
+  OnMeter=ITE-UPS:InteriorEquipment:Electricity [J]
+
+ Meters for 240,WEST ZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WEST ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WEST ZONE [J]
+
+ Meters for 291,WEST ZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WEST ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WEST ZONE [J]
+
+ Meters for 317,EAST ZONE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:EAST ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:EAST ZONE [J]
+
+ Meters for 338,EAST ZONE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:EAST ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:EAST ZONE [J]
+
+ Meters for 354,WEST PLENUM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WEST PLENUM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WEST PLENUM [J]
+
+ Meters for 375,WEST PLENUM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WEST PLENUM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WEST PLENUM [J]
+
+ Meters for 389,EAST PLENUM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:EAST PLENUM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:EAST PLENUM [J]
+
+ Meters for 410,EAST PLENUM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:EAST PLENUM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:EAST PLENUM [J]
+
+ Meters for 424,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 455,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 486,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 547,WEST ZONE CW COOLING COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 568,WEST ZONE CW COOLING COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 601,EAST ZONE CW COOLING COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 602,EAST ZONE CW COOLING COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 608,WEST ZONE SUPPLY FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 643,EAST ZONE SUPPLY FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 651,WEST DATA CENTER IEC:Evaporative Cooler Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 663,WEST DATA CENTER IEC:Evaporative Cooler Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:HVAC [m3]
+  OnMeter=Cooling:Water [m3]
+
+ Meters for 694,WEST DATA CENTER IEC:Evaporative Cooler Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:HVAC [m3]
+  OnMeter=Cooling:MainsWater [m3]
+
+ Meters for 725,EAST DATA CENTER IEC:Evaporative Cooler Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 727,EAST DATA CENTER IEC:Evaporative Cooler Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:HVAC [m3]
+  OnMeter=Cooling:Water [m3]
+
+ Meters for 728,EAST DATA CENTER IEC:Evaporative Cooler Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:HVAC [m3]
+  OnMeter=Cooling:MainsWater [m3]
+
+ Meters for 729,WEST DATA CENTER DEC:Evaporative Cooler Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 731,WEST DATA CENTER DEC:Evaporative Cooler Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:HVAC [m3]
+  OnMeter=Cooling:Water [m3]
+
+ Meters for 732,WEST DATA CENTER DEC:Evaporative Cooler Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:HVAC [m3]
+  OnMeter=Cooling:MainsWater [m3]
+
+ Meters for 733,EAST DATA CENTER DEC:Evaporative Cooler Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 735,EAST DATA CENTER DEC:Evaporative Cooler Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:HVAC [m3]
+  OnMeter=Cooling:Water [m3]
+
+ Meters for 736,EAST DATA CENTER DEC:Evaporative Cooler Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:HVAC [m3]
+  OnMeter=Cooling:MainsWater [m3]
+
+ Meters for 738,WEST DX COOLING COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 740,WEST DX COOLING COIL:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 742,EAST DX COOLING COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 744,EAST DX COOLING COIL:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 745,CHILLER:Chiller Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 767,CHILLER:Chiller Evaporator Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Chillers:EnergyTransfer [J]
+
+ Meters for 791,CHILLER:Chiller Condenser Heat Transfer Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=HeatRejection:EnergyTransfer [J]
+
+ Meters for 804,COOLING TOWER:Cooling Tower Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=HeatRejection:Electricity [J]
+  OnMeter=General:HeatRejection:Electricity [J]
+
+ Meters for 825,COOLING TOWER:Cooling Tower Basin Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=HeatRejection:Electricity [J]
+  OnMeter=BasinHeater:HeatRejection:Electricity [J]
+
+ Meters for 836,COOLING TOWER:Cooling Tower Make Up Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=HeatRejection:Water [m3]
+
+ Meters for 857,COOLING TOWER:Cooling Tower Make Up Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=HeatRejection:MainsWater [m3]
+
+ Meters for 878,CW CIRC PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 889,COND CIRC PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 890,WEST DX COOLING COIL:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 891,EAST DX COOLING COIL:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 928,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 949,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 950,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  WEST ZONE LIGHTS:Lights Electric Energy
+  EAST ZONE LIGHTS:Lights Electric Energy
+  WEST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  EAST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  WESTDATACENTER_EQUIP:ITE CPU Electric Energy
+  WESTDATACENTER_EQUIP:ITE Fan Electric Energy
+  WESTDATACENTER_EQUIP:ITE UPS Electric Energy
+  EASTDATACENTER_EQUIP:ITE CPU Electric Energy
+  EASTDATACENTER_EQUIP:ITE Fan Electric Energy
+  EASTDATACENTER_EQUIP:ITE UPS Electric Energy
+  WEST ZONE SUPPLY FAN:Fan Electric Energy
+  EAST ZONE SUPPLY FAN:Fan Electric Energy
+  WEST DATA CENTER IEC:Evaporative Cooler Electric Energy
+  EAST DATA CENTER IEC:Evaporative Cooler Electric Energy
+  WEST DATA CENTER DEC:Evaporative Cooler Electric Energy
+  EAST DATA CENTER DEC:Evaporative Cooler Electric Energy
+  WEST DX COOLING COIL:Cooling Coil Electric Energy
+  EAST DX COOLING COIL:Cooling Coil Electric Energy
+  CHILLER:Chiller Electric Energy
+  COOLING TOWER:Cooling Tower Fan Electric Energy
+  COOLING TOWER:Cooling Tower Basin Heater Electric Energy
+  CW CIRC PUMP:Pump Electric Energy
+  COND CIRC PUMP:Pump Electric Energy
+  WEST DX COOLING COIL:Cooling Coil Crankcase Heater Electric Energy
+  EAST DX COOLING COIL:Cooling Coil Crankcase Heater Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  WEST ZONE LIGHTS:Lights Electric Energy
+  EAST ZONE LIGHTS:Lights Electric Energy
+  WEST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  EAST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  WESTDATACENTER_EQUIP:ITE CPU Electric Energy
+  WESTDATACENTER_EQUIP:ITE Fan Electric Energy
+  WESTDATACENTER_EQUIP:ITE UPS Electric Energy
+  EASTDATACENTER_EQUIP:ITE CPU Electric Energy
+  EASTDATACENTER_EQUIP:ITE Fan Electric Energy
+  EASTDATACENTER_EQUIP:ITE UPS Electric Energy
+
+ For Meter=Electricity:Zone:WEST ZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  WEST ZONE LIGHTS:Lights Electric Energy
+  WEST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  WESTDATACENTER_EQUIP:ITE CPU Electric Energy
+  WESTDATACENTER_EQUIP:ITE Fan Electric Energy
+  WESTDATACENTER_EQUIP:ITE UPS Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  WEST ZONE LIGHTS:Lights Electric Energy
+  EAST ZONE LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WEST ZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WEST ZONE LIGHTS:Lights Electric Energy
+
+ For Meter=GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  WEST ZONE LIGHTS:Lights Electric Energy
+  EAST ZONE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:EAST ZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  EAST ZONE LIGHTS:Lights Electric Energy
+  EAST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  EASTDATACENTER_EQUIP:ITE CPU Electric Energy
+  EASTDATACENTER_EQUIP:ITE Fan Electric Energy
+  EASTDATACENTER_EQUIP:ITE UPS Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:EAST ZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  EAST ZONE LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WEST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  EAST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  WESTDATACENTER_EQUIP:ITE CPU Electric Energy
+  WESTDATACENTER_EQUIP:ITE Fan Electric Energy
+  WESTDATACENTER_EQUIP:ITE UPS Electric Energy
+  EASTDATACENTER_EQUIP:ITE CPU Electric Energy
+  EASTDATACENTER_EQUIP:ITE Fan Electric Energy
+  EASTDATACENTER_EQUIP:ITE UPS Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:WEST ZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WEST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  WESTDATACENTER_EQUIP:ITE CPU Electric Energy
+  WESTDATACENTER_EQUIP:ITE Fan Electric Energy
+  WESTDATACENTER_EQUIP:ITE UPS Electric Energy
+
+ For Meter=MiscPlug:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WEST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  EAST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:EAST ZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  EAST ZONE_MISCPLUG_EQUIP:Electric Equipment Electric Energy
+  EASTDATACENTER_EQUIP:ITE CPU Electric Energy
+  EASTDATACENTER_EQUIP:ITE Fan Electric Energy
+  EASTDATACENTER_EQUIP:ITE UPS Electric Energy
+
+ For Meter=ITE-CPU:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WESTDATACENTER_EQUIP:ITE CPU Electric Energy
+  EASTDATACENTER_EQUIP:ITE CPU Electric Energy
+
+ For Meter=ITE-Fans:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WESTDATACENTER_EQUIP:ITE Fan Electric Energy
+  EASTDATACENTER_EQUIP:ITE Fan Electric Energy
+
+ For Meter=ITE-UPS:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WESTDATACENTER_EQUIP:ITE UPS Electric Energy
+  EASTDATACENTER_EQUIP:ITE UPS Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  WEST ZONE:Zone Air System Sensible Heating Energy
+  WEST ZONE:Zone Air System Sensible Cooling Energy
+  EAST ZONE:Zone Air System Sensible Heating Energy
+  EAST ZONE:Zone Air System Sensible Cooling Energy
+  WEST PLENUM:Zone Air System Sensible Heating Energy
+  WEST PLENUM:Zone Air System Sensible Cooling Energy
+  EAST PLENUM:Zone Air System Sensible Heating Energy
+  EAST PLENUM:Zone Air System Sensible Cooling Energy
+  WEST ZONE CW COOLING COIL:Cooling Coil Total Cooling Energy
+  EAST ZONE CW COOLING COIL:Cooling Coil Total Cooling Energy
+  WEST DX COOLING COIL:Cooling Coil Total Cooling Energy
+  EAST DX COOLING COIL:Cooling Coil Total Cooling Energy
+  CHILLER:Chiller Evaporator Cooling Energy
+  CHILLER:Chiller Condenser Heat Transfer Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  WEST ZONE:Zone Air System Sensible Heating Energy
+  WEST ZONE:Zone Air System Sensible Cooling Energy
+  EAST ZONE:Zone Air System Sensible Heating Energy
+  EAST ZONE:Zone Air System Sensible Cooling Energy
+  WEST PLENUM:Zone Air System Sensible Heating Energy
+  WEST PLENUM:Zone Air System Sensible Cooling Energy
+  EAST PLENUM:Zone Air System Sensible Heating Energy
+  EAST PLENUM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WEST ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WEST ZONE:Zone Air System Sensible Heating Energy
+  WEST ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  WEST ZONE:Zone Air System Sensible Heating Energy
+  EAST ZONE:Zone Air System Sensible Heating Energy
+  WEST PLENUM:Zone Air System Sensible Heating Energy
+  EAST PLENUM:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WEST ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WEST ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  WEST ZONE:Zone Air System Sensible Cooling Energy
+  EAST ZONE:Zone Air System Sensible Cooling Energy
+  WEST PLENUM:Zone Air System Sensible Cooling Energy
+  EAST PLENUM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WEST ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WEST ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:EAST ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  EAST ZONE:Zone Air System Sensible Heating Energy
+  EAST ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:EAST ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  EAST ZONE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:EAST ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  EAST ZONE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WEST PLENUM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WEST PLENUM:Zone Air System Sensible Heating Energy
+  WEST PLENUM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WEST PLENUM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WEST PLENUM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WEST PLENUM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WEST PLENUM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:EAST PLENUM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  EAST PLENUM:Zone Air System Sensible Heating Energy
+  EAST PLENUM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:EAST PLENUM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  EAST PLENUM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:EAST PLENUM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  EAST PLENUM:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  WEST ZONE CW COOLING COIL:Cooling Coil Total Cooling Energy
+  EAST ZONE CW COOLING COIL:Cooling Coil Total Cooling Energy
+  WEST DX COOLING COIL:Cooling Coil Total Cooling Energy
+  EAST DX COOLING COIL:Cooling Coil Total Cooling Energy
+
+ For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
+  WEST ZONE CW COOLING COIL:Cooling Coil Total Cooling Energy
+  EAST ZONE CW COOLING COIL:Cooling Coil Total Cooling Energy
+  WEST DX COOLING COIL:Cooling Coil Total Cooling Energy
