@@ -56,7 +56,7 @@ def plot_data(data, value="AverageReturn"):
     sns.set(style="darkgrid", font_scale=1.5)
     sns.tsplot(data=data, time="Iteration", value=value, unit="Unit", condition="Condition")
     
-    legend = plt.legend(loc='best')
+    legend = plt.legend(datanames, loc='best')
     legend.draggable() 
     #plt.legend(loc='best').draggable()
     
