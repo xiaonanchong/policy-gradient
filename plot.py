@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 # add for remote server
 plt.switch_backend('agg')
-matplotlib.use('Qt4Agg')  
+# matplotlib.use('Qt4Agg')  
 
 import json
 import os
@@ -60,7 +60,7 @@ def plot_data(data, value="AverageReturn"):
     
     #legend = plt.legend(data, loc='best')
     #legend.draggable() 
-    plt.legend(loc='best').draggable()
+    plt.legend(loc='best')#.draggable()
     
     plt.show()
     # for remote server: add save figure
