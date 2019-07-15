@@ -457,7 +457,7 @@ def train_PG(
         if itr == n_iter-1:
             # torch.save(mlp, '~/hchonglondon/working_space/policy-gradient/SAVED_MODEL')
             # torch.save(mlp, '/home/xiaonanchong/policy-gradient/TRAINED_MODEL')
-            torch.save(mlp, '~/policy-gradient/TRAINED_MODEL')
+            torch.save(mlp, '~/hchonglondon/policy-gradient/TRAINED_MODEL')
         #'''
         ##################### cxn ####################
 
