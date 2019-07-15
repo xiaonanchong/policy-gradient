@@ -2,8 +2,7 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 # add for remote server
-plt.switch_backend('agg')
-# matplotlib.use('Qt4Agg')  
+plt.switch_backend('agg') 
 
 import json
 import os
@@ -57,11 +56,7 @@ def plot_data(data, value="AverageReturn"):
         data = pd.concat(data, ignore_index=True)
     sns.set(style="darkgrid", font_scale=1.5)
     sns.tsplot(data=data, time="Iteration", value=value, unit="Unit", condition="Condition")
-    
-    #legend = plt.legend(data, loc='best')
-    #legend.draggable() 
     plt.legend(loc='best')#.draggable()
-    
     plt.show()
     # for remote server: add save figure
     plt.savefig('result.png')
