@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.8.0-Unknown, YMD=2019.07.12 13:29,IDD_Version 8.8.0
+Program Version,EnergyPlus, Version 8.8.0-Unknown, YMD=2019.07.16 14:19,IDD_Version 8.8.0
    ************* Beginning Zone Sizing Calculations
    ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
    **   ~~~   ** ..Location object=CHICAGO_IL_USA TMY2-94846

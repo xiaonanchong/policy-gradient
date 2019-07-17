@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.8.0-Unknown, YMD=2019.07.12 14:09
+Program Version,EnergyPlus, Version 8.8.0-Unknown, YMD=2019.07.16 14:14
 ! <Version>, Version ID
  Version, 8.8
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -126,3 +126,131 @@ Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.
  CTF,   2,       170.03768    ,      0.42703809E-02,       170.03768    ,      -2.9122627    
  CTF,   1,      -125.64742    ,      0.39176835E-03,      -125.64742    ,       2.7308361    
  CTF,   0,       37.203375    ,      0.16098002E-05,       37.203375    
+ Construction CTF,PLENUM FLOOR,   5,   1,   5,   0.250,      2.556    ,   0.900,   0.900,   0.200,   0.200,MediumRough
+ Material CTF Summary,C19 - 2 IN LIGHT WEIGHT CONCRETE,  0.0508,         0.130,    480.554,      836.800,  0.3912    
+ CTF,   5,     -0.83850597E-11,      0.63002259E-11,     -0.83850592E-11,      0.55212085E-15
+ CTF,   4,      0.24424657E-05,      0.15956266E-05,      0.24424657E-05,     -0.10860590E-08
+ CTF,   3,     -0.82380798E-02,      0.39402067E-02,     -0.82380798E-02,      0.33328805E-04
+ CTF,   2,      0.87670959    ,      0.26258333    ,      0.87670959    ,     -0.16197106E-01
+ CTF,   1,      -7.0165244    ,       1.0310515    ,      -7.0165244    ,      0.41218766    
+ CTF,   0,       7.6920562    ,      0.24642908    ,       7.6920562    
+! <Shadowing/Sun Position Calculations Annual Simulations>, Calculation Method, Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm
+Shadowing/Sun Position Calculations Annual Simulations,AverageOverDaysInFrequency,20,15000,SutherlandHodgman,SimpleSkyDiffuseModeling,InternalCalculation,No
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,WEST ZONE,Mixing/Well-Stirred
+RoomAir Model,EAST ZONE,Mixing/Well-Stirred
+RoomAir Model,WEST PLENUM,Mixing/Well-Stirred
+RoomAir Model,EAST PLENUM,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    4
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.3000    
+ Heating Sizing Factor Information, Zone WEST ZONE,   1.3000    
+ Heating Sizing Factor Information, Zone EAST ZONE,   1.3000    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.3000    
+ Cooling Sizing Factor Information, Zone WEST ZONE,   1.3000    
+ Cooling Sizing Factor Information, Zone EAST ZONE,   1.3000    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, WEST ZONE, Cooling, 48886.66263, 63552.66142, 3.98542, 5.18105, CHICAGO_IL_USA ANNUAL COOLING 1% DESIGN CONDITIONS DB/MCWB, 7/3 14:30:00, 31.50000, 1.45947E-002, 232.25760, 0.00000, 0.00000, 0.00000
+ Zone Sizing Information, EAST ZONE, Cooling, 54771.42398, 71202.85117, 4.46517, 5.80472, CHICAGO_IL_USA ANNUAL COOLING 1% DESIGN CONDITIONS DB/MCWB, 7/3 14:30:00, 31.50000, 1.45947E-002, 259.08000, 0.00000, 0.00000, 0.00000
+! <System Sizing Information>, System Name, Load Type, Peak Load Kind, User Design Capacity, Calc Des Air Flow Rate [m3/s], User Des Air Flow Rate [m3/s], Design Day Name, Date/Time of Peak
+ System Sizing Information, WEST ZONE AIR SYSTEM, Cooling, Sensible, 117219.26, 5.18105, 5.18105, CHICAGO_IL_USA ANNUAL COOLING 1% DESIGN CONDITIONS DB/MCWB, 7/3 00:00:00
+ System Sizing Information, WEST ZONE AIR SYSTEM, Heating, Sensible, 0.00, 0.00000, 0.00000, ,  00:00:00
+ System Sizing Information, EAST ZONE AIR SYSTEM, Cooling, Sensible, 131329.60, 5.80472, 5.80472, CHICAGO_IL_USA ANNUAL COOLING 1% DESIGN CONDITIONS DB/MCWB, 7/3 00:00:00
+ System Sizing Information, EAST ZONE AIR SYSTEM, Heating, Sensible, 0.00, 0.00000, 0.00000, ,  00:00:00
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:NoReheat, WEST ZONE VAV SYSTEM, Design Size Maximum Air Flow Rate [m3/s], 5.18105
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:NoReheat, WEST ZONE VAV SYSTEM, Design Size Constant Minimum Air Flow Fraction, 0.20000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:NoReheat, WEST ZONE VAV SYSTEM, User-Specified Constant Minimum Air Flow Fraction, 0.40000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:NoReheat, WEST ZONE VAV SYSTEM, Design Size Minimum Air Flow Rate [m3/s], 2.07242
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:NoReheat, EAST ZONE VAV SYSTEM, Design Size Maximum Air Flow Rate [m3/s], 5.80472
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:NoReheat, EAST ZONE VAV SYSTEM, Design Size Constant Minimum Air Flow Fraction, 0.20000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:NoReheat, EAST ZONE VAV SYSTEM, User-Specified Constant Minimum Air Flow Fraction, 0.40000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:NoReheat, EAST ZONE VAV SYSTEM, Design Size Minimum Air Flow Rate [m3/s], 2.32189
+ Component Sizing Information, AirLoopHVAC, WEST ZONE AIR SYSTEM, Design Supply Air Flow Rate [m3/s], 5.18105
+ Component Sizing Information, AirLoopHVAC, EAST ZONE AIR SYSTEM, Design Supply Air Flow Rate [m3/s], 5.80472
+ Component Sizing Information, Controller:OutdoorAir, WEST DATA CENTER OA CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 5.18105
+ Component Sizing Information, Controller:OutdoorAir, WEST DATA CENTER OA CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, Fan:VariableVolume, WEST ZONE SUPPLY FAN, Design Size Maximum Flow Rate [m3/s], 5.18105
+ Component Sizing Information, EvaporativeCooler:Direct:ResearchSpecial, WEST DATA CENTER DEC, Primary Air Design Flow Rate [m3/s], 5.18105
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, WEST DATA CENTER IEC, Design Size Secondary Fan Flow Rate [m3/s], 7.25347
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, WEST DATA CENTER IEC, Primary Air Design Flow Rate [m3/s], 5.18105
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, WEST DATA CENTER IEC, Secondary Air Design Flow Rate [m3/s], 7.25347
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, WEST DATA CENTER IEC, Secondary Fan Power [W], 1450.69330
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, WEST DATA CENTER IEC, Recirculating Pump Power [W], 1088.01998
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, WEST DX COOLING COIL, Design Size Rated Air Flow Rate [m3/s], 5.18105
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, WEST DX COOLING COIL, Design Size Gross Rated Total Cooling Capacity [W], 128657.74780
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, WEST DX COOLING COIL, Design Size Gross Rated Sensible Heat Ratio, 0.69808
+! <DX Cooling Coil Standard Rating Information>, Component Type, Component Name, Standard Rating (Net) Cooling Capacity {W}, Standard Rated Net COP {W/W}, EER {Btu/W-h}, SEER {Btu/W-h}, IEER {Btu/W-h}
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, WEST DX COOLING COIL, 124570.4, 2.66, 9.06, 9.54, 9.44
+! <DX Cooling Coil ASHRAE 127 Standard Ratings Information>, Component Type, Component Name, Standard 127 Classification, Rated Net Cooling Capacity Test A {W}, Rated Total Electric Power Test A {W}, Rated Net Cooling Capacity Test B {W}, Rated Total Electric Power Test B {W}, Rated Net Cooling Capacity Test C {W}, Rated Total Electric Power Test C {W}, Rated Net Cooling Capacity Test D {W}, Rated Total Electric Power Test D {W} 
+ DX Cooling Coil ASHRAE 127 Standard Ratings Information, Coil:Cooling:DX:SingleSpeed, WEST DX COOLING COIL, Class 1, 113669.9, 45498.9, 121572.7, 41221.6, 124857.5, 37764.1, 124887.2, 37667.7
+ DX Cooling Coil ASHRAE 127 Standard Ratings Information, Coil:Cooling:DX:SingleSpeed, WEST DX COOLING COIL, Class 2, 119867.0, 46437.5, 126842.5, 42123.8, 129188.7, 38904.6, 129184.8, 38820.0
+ DX Cooling Coil ASHRAE 127 Standard Ratings Information, Coil:Cooling:DX:SingleSpeed, WEST DX COOLING COIL, Class 3, 125719.2, 46985.6, 131813.6, 42695.2, 133268.1, 39750.3, 133232.4, 39678.7
+ DX Cooling Coil ASHRAE 127 Standard Ratings Information, Coil:Cooling:DX:SingleSpeed, WEST DX COOLING COIL, Class 4, 131067.9, 47170.2, 136352.3, 42954.3, 136987.3, 40306.2, 136922.2, 40247.8
+ Component Sizing Information, Coil:Cooling:Water, WEST ZONE CW COOLING COIL, Design Size Design Coil Load [W], 218369.11376
+ Component Sizing Information, Coil:Cooling:Water, WEST ZONE CW COOLING COIL, Design Size Design Water Flow Rate [m3/s], 1.30057E-002
+ Component Sizing Information, Coil:Cooling:Water, WEST ZONE CW COOLING COIL, Design Size Design Air Flow Rate [m3/s], 5.18105
+ Component Sizing Information, Coil:Cooling:Water, WEST ZONE CW COOLING COIL, Design Size Design Inlet Air Temperature [C], 31.50000
+ Component Sizing Information, Coil:Cooling:Water, WEST ZONE CW COOLING COIL, Design Size Design Inlet Water Temperature [C], 7.00000
+ Component Sizing Information, Coil:Cooling:Water, WEST ZONE CW COOLING COIL, Design Size Design Outlet Air Temperature [C], 12.80000
+ Component Sizing Information, Coil:Cooling:Water, WEST ZONE CW COOLING COIL, Design Size Design Inlet Air Humidity Ratio, 1.45947E-002
+ Component Sizing Information, Coil:Cooling:Water, WEST ZONE CW COOLING COIL, Design Size Design Outlet Air Humidity Ratio, 8.27784E-003
+! <Water Cooling Coil Capacity Information>,Component Type,Name,Nominal Total Capacity {W},Nominal Sensible Capacity {W},Nominal Latent Capacity {W},Nominal Sensible Heat Ratio, Nominal Coil UA Value {W/C}, Nominal Coil Surface Area {m2}
+Water Cooling Coil Capacity Information,Coil:Cooling:Water,WEST ZONE CW COOLING COIL,162853.81,106784.66,56069.16,0.66,16481.95,167.17
+ Component Sizing Information, Controller:WaterCoil, WEST CW COIL CONTROLLER, Maximum Actuated Flow [m3/s], 1.30057E-002
+ Component Sizing Information, Controller:WaterCoil, WEST CW COIL CONTROLLER, Controller Convergence Tolerance, 3.66140E-005
+ Component Sizing Information, Controller:OutdoorAir, EAST DATA CENTER OA CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 5.80472
+ Component Sizing Information, Controller:OutdoorAir, EAST DATA CENTER OA CONTROLLER, Minimum Outdoor Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, Fan:VariableVolume, EAST ZONE SUPPLY FAN, Design Size Maximum Flow Rate [m3/s], 5.80472
+ Component Sizing Information, EvaporativeCooler:Direct:ResearchSpecial, EAST DATA CENTER DEC, Primary Air Design Flow Rate [m3/s], 5.80472
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, EAST DATA CENTER IEC, Design Size Secondary Fan Flow Rate [m3/s], 8.12661
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, EAST DATA CENTER IEC, Primary Air Design Flow Rate [m3/s], 5.80472
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, EAST DATA CENTER IEC, Secondary Air Design Flow Rate [m3/s], 8.12661
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, EAST DATA CENTER IEC, Secondary Fan Power [W], 1625.32138
+ Component Sizing Information, EvaporativeCooler:Indirect:ResearchSpecial, EAST DATA CENTER IEC, Recirculating Pump Power [W], 1218.99103
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, EAST DX COOLING COIL, Design Size Rated Air Flow Rate [m3/s], 5.80472
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, EAST DX COOLING COIL, Design Size Gross Rated Total Cooling Capacity [W], 144145.00140
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, EAST DX COOLING COIL, Design Size Gross Rated Sensible Heat Ratio, 0.69808
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, EAST DX COOLING COIL, 139565.6, 2.66, 9.06, 9.54, 9.44
+ DX Cooling Coil ASHRAE 127 Standard Ratings Information, Coil:Cooling:DX:SingleSpeed, EAST DX COOLING COIL, Class 1, 127353.0, 50975.9, 136207.1, 46183.7, 139887.3, 42310.0, 139920.5, 42201.9
+ DX Cooling Coil ASHRAE 127 Standard Ratings Information, Coil:Cooling:DX:SingleSpeed, EAST DX COOLING COIL, Class 2, 134296.1, 52027.4, 142111.2, 47194.5, 144739.9, 43587.7, 144735.6, 43493.0
+ DX Cooling Coil ASHRAE 127 Standard Ratings Information, Coil:Cooling:DX:SingleSpeed, EAST DX COOLING COIL, Class 3, 140852.8, 52641.5, 147680.7, 47834.7, 149310.4, 44535.3, 149270.3, 44455.0
+ DX Cooling Coil ASHRAE 127 Standard Ratings Information, Coil:Cooling:DX:SingleSpeed, EAST DX COOLING COIL, Class 4, 146845.3, 52848.3, 152765.8, 48124.9, 153477.2, 45158.1, 153404.3, 45092.6
+ Component Sizing Information, Coil:Cooling:Water, EAST ZONE CW COOLING COIL, Design Size Design Coil Load [W], 235832.72108
+ Component Sizing Information, Coil:Cooling:Water, EAST ZONE CW COOLING COIL, Design Size Design Water Flow Rate [m3/s], 1.40458E-002
+ Component Sizing Information, Coil:Cooling:Water, EAST ZONE CW COOLING COIL, Design Size Design Air Flow Rate [m3/s], 5.80472
+ Component Sizing Information, Coil:Cooling:Water, EAST ZONE CW COOLING COIL, Design Size Design Inlet Air Temperature [C], 31.50000
+ Component Sizing Information, Coil:Cooling:Water, EAST ZONE CW COOLING COIL, Design Size Design Inlet Water Temperature [C], 7.00000
+ Component Sizing Information, Coil:Cooling:Water, EAST ZONE CW COOLING COIL, Design Size Design Outlet Air Temperature [C], 12.80000
+ Component Sizing Information, Coil:Cooling:Water, EAST ZONE CW COOLING COIL, Design Size Design Inlet Air Humidity Ratio, 1.45947E-002
+ Component Sizing Information, Coil:Cooling:Water, EAST ZONE CW COOLING COIL, Design Size Design Outlet Air Humidity Ratio, 8.27784E-003
+Water Cooling Coil Capacity Information,Coil:Cooling:Water,EAST ZONE CW COOLING COIL,182506.30,119710.07,62796.23,0.66,18665.54,189.32
+ Component Sizing Information, Controller:WaterCoil, EAST CW COIL CONTROLLER, Maximum Actuated Flow [m3/s], 1.40458E-002
+ Component Sizing Information, Controller:WaterCoil, EAST CW COIL CONTROLLER, Controller Convergence Tolerance, 3.39027E-005
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP, Maximum Loop Flow Rate [m3/s], 2.70515E-002
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP, Plant Loop Volume [m3], 3.24618
+ Component Sizing Information, Pump:VariableSpeed, CW CIRC PUMP, Design Flow Rate [m3/s], 2.70515E-002
+ Component Sizing Information, Pump:VariableSpeed, CW CIRC PUMP, Design Power Consumption [W], 6378.18169
+ Component Sizing Information, Chiller:Electric, CHILLER, Design Size Nominal Capacity [W], 454194.26120
+ Component Sizing Information, Chiller:Electric, CHILLER, Design Size Design Chilled Water Flow Rate [m3/s], 2.70515E-002
+ Component Sizing Information, Chiller:Electric, CHILLER, Design Size Design Condenser Water Flow Rate [m3/s], 2.61900E-002
+ Component Sizing Information, PlantLoop, CONDENSER LOOP, Maximum Loop Flow Rate [m3/s], 2.61900E-002
+ Component Sizing Information, PlantLoop, CONDENSER LOOP, Plant Loop Volume [m3], 3.14280
+ Component Sizing Information, Pump:VariableSpeed, COND CIRC PUMP, Design Flow Rate [m3/s], 2.61900E-002
+ Component Sizing Information, Pump:VariableSpeed, COND CIRC PUMP, Design Power Consumption [W], 5223.07043
+ Component Sizing Information, CoolingTower:VariableSpeed, COOLING TOWER, Design Water Flow Rate [m3/s], 2.61900E-002
+ Component Sizing Information, CoolingTower:VariableSpeed, COOLING TOWER, Fan Power at Design Air Flow Rate [W], 5748.17695
+ Component Sizing Information, CoolingTower:VariableSpeed, COOLING TOWER, Design Air Flow Rate [m3/s], 15.13037
+ Component Sizing Information, CoolingTower:VariableSpeed, COOLING TOWER, Nominal Capacity [W], 609354.35914
+ Component Sizing Information, CoolingTower:VariableSpeed, COOLING TOWER, Air Flow Rate in free convection regime [m3/s], 3.02607
+ Component Sizing Information, CoolingTower:VariableSpeed, COOLING TOWER, Tower capacity in free convection regime at design conditions [W], 76169.29489
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
