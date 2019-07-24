@@ -54,7 +54,7 @@ def build_mlp(
     
     layers.append(nn.Linear(size,output_size))
     # add tanh in the output layer to make sure the policy network's output is among [-1, 1]
-    layers.append(non_linear)     
+    # layers.append(non_linear)     
 
     mlp = nn.Sequential(*layers)  
     
