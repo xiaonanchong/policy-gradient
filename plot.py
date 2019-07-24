@@ -59,7 +59,7 @@ def plot_data(data, value="AverageReturn"):
     plt.legend(loc='best')#.draggable()
     plt.show()
     # for remote server: add save figure
-    plt.savefig('result.png')
+    plt.savefig('train.png')
 
 
 def get_datasets(fpath, condition=None):
