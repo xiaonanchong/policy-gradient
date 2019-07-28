@@ -3,7 +3,9 @@ mlp = torch.load('/home/hchonglondon/working_space/policy-gradient/TRAINED_MODEL
 
 import gym
 import numpy as np
-import matplotlib.pylot as plt
+import matplotlib.pyplot as plt
+# add for remote server
+plt.switch_backend('agg') 
 
 import pandas as pd
 
