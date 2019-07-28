@@ -18,7 +18,7 @@ for i in range(4*24*7):
 	x = torch.from_numpy(ob).view(-1,6)
 	y = mlp(x)
 	[action] = y.cpu().detach.numpy()
-    observation, reward, done, info = env.step(action)
+	observation, reward, done, info = env.step(action)
 	Tout.append(observation[0])
 	Tz1.append(observation[1])
 	Tz2.append(observation[2])
