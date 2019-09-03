@@ -1,7 +1,0 @@
-Program Version,EnergyPlus, Version 8.8.0-Unknown, YMD=2019.07.16 14:31,IDD_Version 8.8.0
-   ************* Beginning Zone Sizing Calculations
-   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
-   **   ~~~   ** ..Location object=CHICAGO_IL_USA TMY2-94846
-   **   ~~~   ** ..Weather File Location=San Francisco Intl Ap CA USA TMY3 WMO#=724940
-   **   ~~~   ** ..due to location differences, Latitude difference=[4.16] degrees, Longitude difference=[34.65] degrees.
-   **   ~~~   ** ..Time Zone difference=[2.0] hour(s), Elevation difference=[98.95] percent, [188.00] meters.
